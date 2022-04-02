@@ -6,6 +6,9 @@ def tabuadaSoma():
         print(f"{i} + {numTab} = {i + numTab}")
 
 
+
+
+
 print("=============")
 print("=  TABUADA  =")
 print("=============")
@@ -19,5 +22,18 @@ opc_escolhida = int(input("\nEscolha a opção desejada da tabuada: "))
 if opc_escolhida:
     if opc_escolhida == 1:
         tabuadaSoma()
+
+    if opc_escolhida == 2:
+        tabuadaSub()
+
+    if opc_escolhida == 3:
+        tabuadaSoma()
+
+    if opc_escolhida == 4:
+        tabuadaSoma()
+
     if opc_escolhida == 0:
         print("Exite")
+
+    else:
+        print("Digite uma opção valida")
