@@ -6,6 +6,27 @@ def tabuadaSoma():
         print(f"{i} + {numTab} = {i + numTab}")
 
 
+def tabuadaSub():
+    numMax = int(input("Inforne a quantidade de linhas da tabuada: "))
+    numTab = int(input("Informe qual o nunero que quer gerar a tabuada: "))
+
+    for i in range(numMax):
+        print(f"{i} / {numTab} = %1.2f" %(i / numTab))
+
+
+def tabuadaDiv():
+    numMax = int(input("Inforne a quantidade de linhas da tabuada: "))
+    numTab = int(input("Informe qual o nunero que quer gerar a tabuada: "))
+
+    for i in range(numMax):
+        print(f"{i} + {numTab} = {i + numTab}")
+
+def tabuadaMultip():
+    numMax = int(input("Inforne a quantidade de linhas da tabuada: "))
+    numTab = int(input("Informe qual o nunero que quer gerar a tabuada: "))
+
+    for i in range(numMax):
+        print(f"{i} + {numTab} = {i + numTab}")
 
 
 
@@ -27,7 +48,7 @@ if opc_escolhida:
         tabuadaSub()
 
     if opc_escolhida == 3:
-        tabuadaSoma()
+        tabuadaDiv()
 
     if opc_escolhida == 4:
         tabuadaSoma()
